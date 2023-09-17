@@ -1,0 +1,129 @@
+.inneritems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inneritems input {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    width: 111rem;
+    border-radius: 3rem;
+    border: 0;
+    outline: 0;
+    box-shadow: 0rem 0rem 0.3rem 0rem gray;
+}
+
+.inneritems .btn {
+    width: 9rem;
+    height: 4.5rem;
+    background: blueviolet;
+    position: relative;
+    right: 7rem;
+    border-radius: 0rem 2rem 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #44f5c0, #2eb3ac)
+}
+
+.inneritems .btn:hover {
+    background: linear-gradient(45deg, #dd42ddea, #13e7ff)
+}
+
+.inneritems .btn img {
+    filter: invert(1);
+}
+
+/* thired section  */
+
+.inneritems1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 41rem;
+}
+
+.inneritems1 select {
+    font-size: 1.8rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 0;
+    box-shadow: 0rem 0rem 0.3rem 0rem gray;
+}
+
+#searchorselcon {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: 5rem 0rem;
+}
+
+.userimg {
+    width: 27rem;
+}
+
+.userimg img {
+    width: 100%;
+    border-radius: 4rem;
+    box-shadow: 0rem 0rem 0.3rem 0rem gray;
+}
+#userpro{
+    margin-bottom: 7rem;
+}
+.userprocon {
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userprocon1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    width: 141rem;
+    border-radius: 5rem;
+    box-shadow: 0rem 0rem 0.3rem 0rem gray;
+}
+
+.headingast h1 {
+    font-size: 3.5rem;
+}
+
+.userdetails p {
+    font-size: 1.7rem;
+}
+
+.userdetails {
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.btnwarr button {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.8rem 4rem;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 0rem 0rem 0.2rem 0rem gray;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1rem;
+}
+.btnwarr button:hover{
+    box-shadow: inset 0rem 0rem 0.8rem 0rem gray;
+}
+
+.checked {
+    color: orange;
+}
+
+.ratings {
+    font-size: 2rem;
+}

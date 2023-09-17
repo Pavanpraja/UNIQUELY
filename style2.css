@@ -1,0 +1,60 @@
+.usheadap {
+    padding: 0rem 14rem;
+    margin: 3rem 0rem;
+}
+
+.usheadap p {
+    font-size: 2rem;
+}
+
+.usheadap h1 {
+    font-size: 3rem;
+}
+
+.img img {
+    width: 22rem;
+    border-radius: 11rem
+
+}
+.usersi{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: black;
+}
+.usersi label {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.usersi input {
+    border: 0;
+    font-size: 1.8rem;
+    outline: 0;
+}
+.usersi #status{
+    color:green
+}
+
+#ustatus {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ustatuscon {
+    width: 51rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-shadow: inset 0rem 0rem 0.5rem 0rem gray;
+    padding: 4rem;
+    border-radius: 2rem;
+}
+.ustatuscon h1{
+    font-size: 3rem;
+    text-shadow: 0rem 0.2rem 0.2rem;
+    opacity: 0.6;
+    color: #000000bf;
+}
